@@ -41,6 +41,14 @@ Go ahead, try the next one yourself:
 1 + 3 + 5 + 7 + 9 + 11  = ?
 ```
 
+No, seriously. Add it up. Don't skip ahead. I'll wait.
+
+...
+
+...
+
+...
+
 You get 36. Which is 6². Of course it is!
 
 So here's what you're probably thinking: *"OK, Feynman, that's a cute pattern. It works for 1 through 6. It probably works forever."*
@@ -86,7 +94,17 @@ This formula gives you a prime number for n = 0, 1, 2, 3, 4, 5, 6, 7... all the 
 
 You'd be pretty confident by now, right?
 
-But then:
+So here's my question for you: **Do you think this pattern holds forever?**
+
+Think about it. Forty straight primes. Would you bet money that n = 40 gives a prime too?
+
+...
+
+...
+
+...
+
+Let's find out:
 
 ```
 n = 40:  1600 + 40 + 41 = 1681 = 41 × 41

@@ -27,11 +27,15 @@ Now let me ask you something. Suppose I tell you two things about a row of domin
 
 If both of those things are true — do ALL the dominoes fall?
 
-Think about it.
+**Stop. Think about this for ten seconds before you read on.** Seriously. Can you explain to yourself WHY all the dominoes would fall? Don't just say "obviously" — trace the logic. Start from domino 1 and walk through it.
 
 ...
 
-Yeah. Of course they do. *Of course* they do. It's obvious. The first one falls (Thing 1). That knocks over the second one (Thing 2). The second one knocks over the third (Thing 2 again). The third knocks over the fourth (Thing 2, still working). And so on, and so on, forever.
+...
+
+...
+
+Yeah. Of course they do. *Of course* they do. And you probably traced exactly the right logic: The first one falls (Thing 1). That knocks over the second one (Thing 2). The second one knocks over the third (Thing 2 again). The third knocks over the fourth (Thing 2, still working). And so on, and so on, forever.
 
 You don't need to check each domino individually. You don't need to walk down the line and verify that domino number 4,712 fell. You *know* it fell, because:
 
@@ -146,7 +150,15 @@ And I tell you two things:
 
 Does person 1,000,000 know the secret?
 
-Of course. Person 1 tells person 2 (Thing 2). Person 2 tells person 3 (Thing 2). This chain keeps going. Person 999,999 tells person 1,000,000 (Thing 2).
+**Your turn. Before reading on, explain to yourself — using only Thing 1 and Thing 2 — WHY person 1,000,000 must know the secret.**
+
+...
+
+...
+
+...
+
+Here's the chain: Person 1 knows (Thing 1). Person 1 tells person 2 (Thing 2). Person 2 tells person 3 (Thing 2). This chain keeps going. Person 999,999 tells person 1,000,000 (Thing 2).
 
 Does person *n* know the secret, for any n?
 

@@ -102,15 +102,43 @@ In other words, we need to show:
 
 > 1 + 3 + 5 + ... + (2k − 1) + (2(k+1) − 1) = (k + 1)²
 
-Let me simplify that last odd number real quick:
+Now — before you flinch at that "(k+1)" — let's talk about what it means. Because it's simpler than it looks.
+
+Remember: k is "the current domino." So k + 1 is just... **the next domino.** One step further. That's ALL it is.
+
+If k is domino number 5, then k + 1 is domino number 6. If k is domino number 100, then k + 1 is domino number 101. It's always "wherever you are, plus one more." The next one in line.
+
+So everywhere you see (k + 1) in this proof, your brain should just read: **"the next one."**
+
+- The sum up to k = the sum for the current domino
+- The sum up to k + 1 = the sum for the next domino
+- (k + 1)² = what the formula *should* give for the next domino
+
+We're trying to show: "If the formula works for the current domino (k), it must also work for the next domino (k + 1)."
+
+OK, with that in mind, let me simplify that last odd number real quick:
 
 > 2(k + 1) − 1 = 2k + 2 − 1 = 2k + 1
+
+That's just the (k+1)-th odd number — the *next* odd number after (2k − 1). Makes sense, right? If the k-th odd number is (2k − 1), then the next one in the sequence is (2k + 1).
 
 So our goal is to show:
 
 > 1 + 3 + 5 + ... + (2k − 1) + (2k + 1) = (k + 1)²
 
-Look at the left side of that equation. Look at it carefully. Do you see something familiar?
+Look at the left side of that equation. Look at it carefully.
+
+**Here's your challenge.** You've got the assumption tattooed on your brain from Step 2. And you're staring at this expression: 1 + 3 + 5 + ... + (2k − 1) + (2k + 1). Can you see a piece of it that you already know the value of? Which piece? And what does it equal?
+
+Take a moment. Look at it. Really look.
+
+...
+
+...
+
+...
+
+Here's what you should have spotted:
 
 ```
 1 + 3 + 5 + ... + (2k − 1)  +  (2k + 1)
@@ -132,7 +160,17 @@ Watch:
 = k² + (2k + 1)                            ← Used The Assumption!
 
 = k² + 2k + 1                              ← Just removed parentheses
+```
 
+**Now hold on.** Look at k² + 2k + 1. Does that expression remind you of anything? Can you think of a way to write it as something-squared? (Hint: try expanding (k+1)(k+1) by hand and see what you get.)
+
+...
+
+...
+
+...
+
+```
 = (k + 1)²                                 ← Factored! This is just (k+1)(k+1)!
 ```
 
@@ -178,11 +216,11 @@ THE INDUCTIVE STEP SAID: If it works for k,         (if domino k falls...)
 So now chain them together:
 
 ```
-It works for n = 1.                        (base case)
-Since it works for 1, it works for 2.      (inductive step, with k = 1)
-Since it works for 2, it works for 3.      (inductive step, with k = 2)
-Since it works for 3, it works for 4.      (inductive step, with k = 3)
-Since it works for 4, it works for 5.      (inductive step, with k = 4)
+It works for n = 1.                (base case)
+Since it works for 1, it works for 2.   (inductive step, with k = 1)
+Since it works for 2, it works for 3.   (inductive step, with k = 2)
+Since it works for 3, it works for 4.   (inductive step, with k = 3)
+Since it works for 4, it works for 5.   (inductive step, with k = 4)
 ...
 ...forever.
 ```
@@ -272,8 +310,4 @@ A: Recognizing that k² + 2k + 1 = (k + 1)². This is just the expansion of (k +
 
 *You just did your first induction proof. How does it feel?*
 
-*Next time, in Chapter 4: We extract the template — the skeleton that EVERY induction proof follows. Once you have it, they all look the same.*
-
----
-
-[Next: Chapter 4 — The Anatomy of Every Induction Proof →]({{ site.baseurl }}/chapters/04-the-anatomy/) *(coming soon)*
+[Next: Chapter 4 — The Anatomy of Every Induction Proof →]({{ site.baseurl }}/chapters/04-anatomy/)
