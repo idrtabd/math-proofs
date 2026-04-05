@@ -150,12 +150,37 @@ This isn't really an induction mistake. It's an algebra mistake that happens to 
 
 **The most common algebra errors in induction proofs:**
 
-- Forgetting to distribute a negative sign: (2ᵏ⁺¹ − 1) + 2ᵏ⁺¹ is NOT 2·2ᵏ⁺¹ − 1 + 1. The −1 stays.
-- Messing up common denominators when fractions are involved
-- Forgetting exponent rules: 2·2ᵏ = 2ᵏ⁺¹, NOT 4ᵏ
-- Incorrectly expanding (k+1)²: it's k² + 2k + 1, NOT k² + 1
+Let me show you each one — the WRONG way and the RIGHT way side by side, so you can see exactly where students go off the rails:
 
-**The fix:** Slow down during the algebra. Write every step. Don't skip "obvious" simplifications — those are where mistakes hide. If you're not sure about an algebra step, check it with a specific number. For instance, if you think 2·2³ = 2⁴, verify: 2·8 = 16 = 2⁴. Yep.
+```
+ERROR 1: Forgetting the negative sign stays
+
+  WRONG:  (2ᵏ⁺¹ − 1) + 2ᵏ⁺¹  =  2·2ᵏ⁺¹ − 1 + 1  =  2·2ᵏ⁺¹
+  RIGHT:  (2ᵏ⁺¹ − 1) + 2ᵏ⁺¹  =  2ᵏ⁺¹ − 1 + 2ᵏ⁺¹  =  2·2ᵏ⁺¹ − 1
+                                          ↑
+                            The −1 doesn't go anywhere!
+```
+
+```
+ERROR 2: Wrong exponent rule
+
+  WRONG:  2 · 2ᵏ  =  4ᵏ       (NO! You don't multiply the bases!)
+  RIGHT:  2 · 2ᵏ  =  2¹ · 2ᵏ  =  2ᵏ⁺¹   (Add the exponents!)
+
+  Check with real numbers: 2 · 2³ = 2 · 8 = 16 = 2⁴ = 2³⁺¹  ✓
+  But 4³ = 64. Not 16. The wrong answer isn't even close.
+```
+
+```
+ERROR 3: Forgetting the middle term when squaring
+
+  WRONG:  (k+1)²  =  k² + 1
+  RIGHT:  (k+1)²  =  (k+1)(k+1)  =  k² + k + k + 1  =  k² + 2k + 1
+                                           ↑
+                            Don't forget the 2k in the middle!
+```
+
+**The fix:** Slow down during the algebra. Write every step. Don't skip "obvious" simplifications — those are where mistakes hide. And when in doubt, check with a specific number. Plug in k = 3 and see if both sides match. The number check catches mistakes instantly.
 
 ---
 

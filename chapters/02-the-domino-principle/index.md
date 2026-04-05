@@ -124,11 +124,15 @@ I get it. It feels like cheating. But it's not. Here's why.
 
 Think back to the dominoes. When I said "whenever any domino falls, it knocks over the next one" — I wasn't saying all the dominoes have already fallen. I was describing a **relationship** between neighbors. I was saying: "Pick any domino. IF that one falls, THEN the next one will too."
 
-I'm not claiming domino number 847 has fallen. I'm saying: "IF 847 falls, THEN 848 *will* fall." That's a completely different statement. It's a **conditional** statement. An if-then.
+Let me make this really concrete. Imagine I point at domino number 847 and say:
 
-And notice — I don't need domino 847 to have actually fallen to make this argument! I just need to show that the dominoes are set up in such a way that each one *would* knock over the next one *if* it fell.
+> "IF domino 847 falls, THEN domino 848 will fall."
 
-So in the math version:
+I'm NOT claiming domino 847 has already fallen. Maybe it has, maybe it hasn't — I don't care. I'm just saying: the dominoes are set up so that *if* 847 goes down, 848 is going down too. That's a **conditional** statement. An if-then. A relationship between neighbors.
+
+And here's the key: I don't need domino 847 to have actually fallen to know this! I just need to see that they're close enough together, lined up properly, so that any one *would* knock over the next one *if* it fell.
+
+OK — now let's say the same thing in math language:
 
 > **The assumption (called the "inductive hypothesis"):** Suppose the formula works for some number k. We don't know which k. We don't care. Just... pick one. Assume it works for that one.
 >

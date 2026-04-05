@@ -159,7 +159,11 @@ Let me put two proofs side by side so you can see how the skeleton is IDENTICAL 
 - Hypothesis: what would you assume? (Remember: take P(n) and replace n with k.)
 - Key move: what would you substitute in?
 
-Give it a try. Then scroll down and see if you nailed it.
+Really try this one — don't just glance at the blanks and scroll. You have everything you need from Proof A. The pattern is the same; only the formula changes. Write your answers down, then scroll to check.
+
+...
+
+...
 
 ...
 
