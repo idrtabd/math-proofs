@@ -1,0 +1,32 @@
+title: "The Domino Effect: A Mini-Course on Mathematical Induction"
+description: "Learn mathematical induction from scratch — taught in the style of Richard Feynman."
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+baseurl: "/math-proofs"
+url: "https://idrtabd.github.io"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Build settings
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Collections for chapters (ordered)
+collections:
+  chapters:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "chapters"
+    values:
+      layout: "default"
